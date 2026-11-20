@@ -50,8 +50,6 @@ Semua angka berupa rata-rata ± simpangan baku antar-seed. Nilai persis ada di b
 |--------|------------|
 | `STUDIO3_Kelompok16_Silvia_Tri_Putri.ipynb` | Notebook utama: rancangan, kode, hasil, dan kesimpulan |
 | `STUDIO3_Kelompok16_Silvia_Tri_Putri.pdf` | Ekspor notebook ke PDF sebagai cadangan |
-| `hasil_smsa_c7e6d734.csv` | Hasil semua run (metrik per run) |
-| `rekap_agregat_smsa_c7e6d734.csv` | Rekap rata-rata ± simpangan baku per backbone × strategi |
 
 ## Cara menjalankan ulang
 
@@ -60,7 +58,4 @@ Semua angka berupa rata-rata ± simpangan baku antar-seed. Nilai persis ada di b
 3. Seed dikunci lewat `set_seed()`, jadi hasil seharusnya konsisten. Latensi inferensi bisa berbeda tipis antar-sesi atau antar-mesin.
 4. Matriks penuh memakan waktu sekitar 2 jam di satu GPU T4. Pekerjaan bisa dibagi antar sesi dengan mengatur `MEMBER_TAG` dan `RUN_BACKBONES`, lalu digabung dengan sel "Gabungkan hasil antar-anggota".
 
-## Referensi
 
-- Wilie dkk. (2020). *IndoNLU: Benchmark and Resources for Evaluating Indonesian Natural Language Understanding.*
-- Library: HuggingFace `transformers`, `scikit-learn`, PyTorch.
