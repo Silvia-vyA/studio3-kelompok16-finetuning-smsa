@@ -44,13 +44,6 @@ Semua angka berupa rata-rata ± simpangan baku antar-seed. Nilai persis ada di b
 - **Linear probing** selalu di bawah full fine-tuning. Pada mBERT, hasilnya mendekati tebakan acak.
 - **Rekomendasi:** IndoBERT dengan partial freezing sebagai keseimbangan akurasi dan biaya latih. Alternatif dan alasannya ada di bagian Kesimpulan notebook.
 
-## Isi repositori
-
-| Berkas | Keterangan |
-|--------|------------|
-| `STUDIO3_Kelompok16_Silvia_Tri_Putri.ipynb` | Notebook utama: rancangan, kode, hasil, dan kesimpulan |
-| `STUDIO3_Kelompok16_Silvia_Tri_Putri.pdf` | Ekspor notebook ke PDF sebagai cadangan |
-
 ## Cara menjalankan ulang
 
 1. Buka notebook di Google Colab atau Kaggle dan aktifkan GPU (T4).
