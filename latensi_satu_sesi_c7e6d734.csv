@@ -1,0 +1,5 @@
+backbone,latensi_ms_mean,latensi_ms_std,total_param,perangkat
+mBERT,9.183,1.124,177855747,Tesla T4
+DistilBERT,4.828,0.501,135326979,Tesla T4
+IndoBERT,8.452,0.166,124443651,Tesla T4
+XLM-R,9.631,1.002,278045955,Tesla T4
